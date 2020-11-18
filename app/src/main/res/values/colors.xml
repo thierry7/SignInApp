@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3FABB5</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="backgroundColor">#FFEB3B</color>
+    <color name="LightGrey">#8D8B88</color>
+    <color name="DeepPurple">#673AB7</color>
+    <color name="Yellow">#E7B316</color>
+    <color name="green">#598F5C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darker_grey">#706E6E</color>
+    <color name="mine">#00BCD4</color>
+    <color name="backgroundF">#800</color>
+    <color name="editgroud">#fff</color>
+    <color name="bac">#9B9EA0</color>
+    <color name="recylerBac">#FF80AB</color>
+    <color name="yellow">#9E9D24</color>
+    <color name="progress">#f3ff</color>
+    <color name="frame2">#85BBB2</color>
+    <color name="textcolord">#fff</color>
+
+</resources>

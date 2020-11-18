@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ed_w">250dp</dimen>
+    <dimen name="Ed_f_h">67dp</dimen>
+    <dimen name="mar_ed_end">16dp</dimen>
+    <dimen name="ed_f_right">16dp</dimen>
+    <dimen name="T_w">80dp</dimen>
+    <dimen name="T_h">35dp</dimen>
+    <dimen name="bt_size">75dp</dimen>
+    <dimen name="btn_h">55dp</dimen>
+    <dimen name="recycle_width">148dp</dimen>
+    <dimen name="activity_list_pading">50dp</dimen>
+    <dimen name="image_list2_height">118dp</dimen>
+    <dimen name="bottom_margin_list2">10dp</dimen>
+    <dimen name="frame1height">0dp</dimen>
+    <dimen name="radiobtnheight">338dp</dimen>
+    <dimen name="seekbarheight">43dp</dimen>
+    <dimen name="seekbarh">35dp</dimen>
+</resources>

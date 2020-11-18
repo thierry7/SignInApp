@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bac"
+    card_view:cardCornerRadius="1dp"
+    card_view:barrierAllowsGoneWidgets="true"
+    card_view:cardElevation="@dimen/cardview_default_radius"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bac"
+
+        >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/recycle_width"
+            android:layout_height="@dimen/image_list2_height"
+
+            android:layout_gravity="start"
+            android:src="@drawable/ic_person_black_24dp"
+            android:background="@color/LightGrey"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bottom_margin_list2"
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+
+                android:textStyle="bold|italic"
+                android:textColor="@color/editgroud"
+
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/tv_text4"
+                android:layout_width="@dimen/recycle_width"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bottom_margin_list2"
+                android:gravity="end"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+
+                android:textColor="@color/editgroud"
+                 />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/supp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            card_view:srcCompat="@android:drawable/ic_menu_delete" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
